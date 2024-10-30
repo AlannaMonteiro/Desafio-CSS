@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Sarabun&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+ }
+ 
+ body{ 
+    height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #ffffff;
+     
+ }
+ 
+ header {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:'Tilt Warp', sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    color: #232528;
+    font-size: 2rem;
+    
+}
+#titulo{
+    color: #4392f1 ;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: linear-gradient(145deg, #333942, #1f2229);
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+    
+  .principal  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    
+
+}
+
+.input_texto {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2.5px solid #4392f1;
+    border-radius: 10px;
+    width: 350px; 
+    
+    
+}
+
+.btn_adicionar {
+    padding: 8px 18px; 
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #4392f1;
+    color: #ffffff;
+    border: 2.5px solid #4392f1;
+    border-radius: 8px;
+}
+
+.opcoes {
+    display: flex;
+    gap: 15px; 
+    margin-top: 20px;
+}
