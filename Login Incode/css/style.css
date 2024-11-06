@@ -24,14 +24,19 @@
   
   /* Header */
   header h1 {
-    display: flex;
+      
     font-size: 1.8em;
     color: #333;
     margin-bottom: 20px;
-    text-align: center;
-    justify-self: center;
     height: 100px;
   }
+
+ header {
+    display: flex;
+    text-align: center;
+    justify-self: center;
+  }
+  
   
   /* Container de Cadastro */
   .container-cadastro {
